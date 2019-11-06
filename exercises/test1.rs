@@ -19,3 +19,11 @@ fn verify_test() {
     assert_eq!(70, price1);
     assert_eq!(65, price2);
 }
+
+fn calculate_apple_price(weight: i32) -> i32 {
+    if weight <= 40 {
+        weight * 2
+    } else {
+        weight
+    }
+}
